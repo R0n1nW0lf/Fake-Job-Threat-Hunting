@@ -14,8 +14,8 @@
 | Listed location | Ohio, US (Remote) |
 | Pay | Undisclosed |
 | Posting date | 2026-10-14 |
-| Closure status | Closed |
-| Applicant count | 26 |
+| Closure status | Closed (closure interval Not Verified) |
+| Applicant count | 26 displayed |
 | Application route | LinkedIn Easy Apply |
 | Contact domain | Not Verified |
 | Company website / careers page | LinkedIn company page: linkedin.com/company/inspiratie-by-mohamed — no careers presence for IT or cybersecurity roles |
@@ -34,11 +34,11 @@ The posting may be using an unrelated real business's LinkedIn page as a shell f
 - The LinkedIn company page behind "Consultancy by MB" (linkedin.com/company/inspiratie-by-mohamed) belongs to a Dutch youth-care / home-care sole proprietorship in Amsterdam with 0–1 employees, in the coaching industry.
 - The listed poster was an unrelated nutrition-rehabilitation resident based in Argentina (poster name: Not Verified; the affiliation mismatch was documented at investigation time).
 - The same company page also ran a template "IT Service Desk Analyst" posting with a different, also unrelated, poster.
-- The posting closed with 26 applicants collected.
+- The posting closed; LinkedIn displayed an applicant count of 26. The displayed count does not by itself establish what information was received or how it was used.
 
 ## Verification
 
-- Web searches found zero corroboration of the role, or of the business offering IT or cybersecurity services, anywhere outside LinkedIn.
+- Web searches found no corroboration of the role, or of the business offering IT or cybersecurity services, outside LinkedIn.
 - The page's industry, size, and location are inconsistent with a US cybersecurity employer running multiple US-remote template postings.
 
 ## Conclusion
@@ -55,5 +55,11 @@ The posting may be using an unrelated real business's LinkedIn page as a shell f
 - Company page belongs to an unrelated foreign micro-business (youth care, Amsterdam)
 - Poster affiliation mismatch (unrelated person, different country and profession)
 - Same page running multiple template postings with different unrelated posters
-- Zero web corroboration of the role
-- Posting closed after collecting 26 applicants
+- No web corroboration of the role found
+- Posting closed; LinkedIn displayed 26 applicants
+
+## Sources
+
+- Original LinkedIn posting: https://www.linkedin.com/jobs/view/4477009690
+- LinkedIn company page: linkedin.com/company/inspiratie-by-mohamed — reviewed live on 2026-10-14
+- Public web search — no corroborating source for the advertised role found; specific search-result URLs Not Verified

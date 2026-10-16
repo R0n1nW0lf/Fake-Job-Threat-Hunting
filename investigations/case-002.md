@@ -8,7 +8,7 @@
 | Investigation date | 2026-10-14 |
 | Job title | Cybersecurity and Information Assurance Specialist |
 | Advertised company | NL AAA – Climate Resilient |
-| Actual business identified | NL AAA is a real Dutch Delta Programme public-private coalition for climate-adaptation finance, based in the Netherlands, with a small secretariat (2–10 employees). It has no US presence and no cybersecurity hiring. |
+| Actual business identified | NL AAA is a real Dutch Delta Programme public-private coalition for climate-adaptation finance, based in the Netherlands, with a small secretariat (2–10 employees). No US presence, vacancies, or cybersecurity hiring was found at investigation time. |
 | LinkedIn URL | https://www.linkedin.com/jobs/view/4478495258/ |
 | Job ID | 4478495258 |
 | Listed location | Los Angeles County, CA (the description text said United States, Remote / Hybrid — contradictory) |
@@ -17,7 +17,7 @@
 | Closure status | Closed approximately 2 hours after going live |
 | Applicant count | 16 at first sighting |
 | Application route | LinkedIn Easy Apply |
-| Contact domain | nlaaa.nl (does not resolve) |
+| Contact domain | Not Verified (no contact email from the posting was preserved). Checked domain nlaaa.nl — does not resolve. |
 | Company website / careers page | Official site deltaprogamma.nl — no vacancies listed; NL AAA's own LinkedIn Jobs tab was empty |
 | Verdict | **LIKELY FAKE / IMPERSONATION** |
 
@@ -29,7 +29,7 @@ A full-time Easy Apply posting for a "Cybersecurity and Information Assurance Sp
 
 ## Hypothesis
 
-The posting may be impersonating a real organisation whose name lends credibility, in order to harvest applicant information.
+The posting may be impersonating a real organisation whose name lends credibility. Information harvesting is a possible purpose (hypothesis), not an independently verified outcome.
 
 ## Evidence
 
@@ -43,12 +43,12 @@ The posting may be impersonating a real organisation whose name lends credibilit
 - The official NL AAA site (deltaprogamma.nl) lists no vacancies and shows no US presence.
 - The domain nlaaa.nl does not resolve.
 - NL AAA's own LinkedIn Jobs tab was empty at investigation time.
-- Web searches found zero corroboration of the role anywhere outside the LinkedIn posting.
+- Web searches found no corroboration of the role outside the LinkedIn posting.
 - The posting closed approximately 2 hours after going live.
 
 ## Conclusion
 
-**Likely fake / impersonation.** A real Dutch coalition's name and branding were used on a US cybersecurity posting that the real organisation does not offer, posted by a person with no affiliation to it, with a dead contact domain and no corroboration anywhere. The pattern is consistent with information harvesting.
+**Likely fake / impersonation.** A real Dutch coalition's name and branding were used on a US cybersecurity posting that the real organisation does not offer, posted by a person with no affiliation to it, with a non-resolving checked domain and no corroboration found elsewhere. Potential information harvesting remains a hypothesis; receipt or misuse of applicant information was not verified.
 
 ## Action Taken
 
@@ -61,6 +61,14 @@ The posting may be impersonating a real organisation whose name lends credibilit
 - Real organisation is foreign, small, and outside the advertised industry
 - Listed location contradicts the description text
 - Contact domain does not resolve
-- Role exists only on LinkedIn; employer's own Jobs tab empty
+- No corroboration for the role found outside LinkedIn; employer's own Jobs tab empty
 - Identical template reused on a sibling posting
 - Posting closed roughly 2 hours after going live
+
+## Sources
+
+- Original LinkedIn posting: https://www.linkedin.com/jobs/view/4478495258/
+- Sibling LinkedIn posting: https://www.linkedin.com/jobs/view/4478159278
+- Official NL AAA website: deltaprogamma.nl — checked 2026-10-14; no vacancies or US presence found
+- Domain check: nlaaa.nl — did not resolve at investigation time
+- LinkedIn company Jobs tab and poster affiliation check — reviewed live on 2026-10-14; exact profile/page URLs Not Verified

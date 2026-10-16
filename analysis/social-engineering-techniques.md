@@ -8,9 +8,9 @@ Postings ran under the names of real organisations: a Dutch climate-finance coal
 
 **Countermeasure:** Verify the business independently. Check what the real organisation actually does, where it is based, and whether it operates in the advertised country and industry at all.
 
-## 2. Company-page renaming to a placeholder
+## 2. Placeholder company-page display name (mechanism Not Verified)
 
-In Case-006, a real firm's LinkedIn page displayed the name "No aplica" ("not applicable") while its URL slug still named the firm. A second company's page carried the same placeholder name. A renamed page keeps the real page's history and followers while hiding its identity behind a meaningless label.
+In Case-006, a real firm's LinkedIn page displayed the name "No aplica" ("not applicable") while its URL slug still named the firm. A second company's page displayed the same placeholder name. How the placeholder display came about — unauthorized renaming, account compromise, platform error, or another cause — is **Not Verified**; no evidence in the investigation establishes the mechanism. The observable effect, whatever the cause, is a page whose displayed name conceals the business identified by its URL, industry, and location fields.
 
 **Countermeasure:** Read the company page URL slug, industry, headquarters, and size, not just the displayed name. A mismatch between the page's actual business and the advertised role is a strong warning sign.
 
@@ -20,9 +20,9 @@ Real organisation names, plausible job titles, and familiar tool keywords (SIEM,
 
 **Countermeasure:** Treat recognisable names as a claim to verify, not as proof. Search for the role on the organisation's own site before trusting the listing.
 
-## 4. Template job text aimed at entry-level candidates
+## 4. Template job text and junior-role framing
 
-The postings targeted junior roles with generic descriptions listing standard tools and duties, naming no employer in the text itself (explicit in Case-006; template reuse documented in Cases 002, 003, and 005). Entry-level candidates and career changers apply in high volume and may have less experience spotting recruitment fraud.
+Most of the patterned postings were junior-titled (Cases 003, 005, and 006), and Case-002 was open to 0–3 years of experience. Their descriptions were generic, listing standard tools and duties and naming no employer in the text itself (explicit in Case-006; template reuse documented in Cases 002, 003, and 005). Case-001 does not fit this point: its copied body text described a senior role. Junior roles draw high application volume, and candidates new to the field may have less experience spotting recruitment fraud.
 
 **Countermeasure:** Phrase-search a distinctive sentence from the description. Check whether the text names the employer, a team, a location, or anything specific. Pure template text is a red flag.
 
@@ -34,7 +34,7 @@ The postings used LinkedIn Easy Apply (Cases 002–005). One-click applying lowe
 
 ## 6. Urgency through rapid open and close windows
 
-Postings closed within hours: roughly 2 hours in Case-002 and roughly 7 hours in Case-006, each after collecting applicants (26 in Case-006; 26 also recorded in Case-003). A short window pressures candidates to apply immediately and limits the time available for scrutiny or reporting.
+Two postings are documented as closing within hours of going live: roughly 2 hours in Case-002, which displayed 16 applicants at first sighting, and roughly 7 hours in Case-006, which displayed 26 applicants. Case-003 also closed with 26 applicants displayed, but its closure interval is Not Verified, so it is not counted here. A short window can pressure candidates to apply immediately and limits the time available for scrutiny or reporting; that pressure effect is an interpretation of the pattern, not a measured outcome.
 
 **Countermeasure:** A posting that appears and vanishes within hours is itself an indicator. Legitimate employers rarely run a full hiring window in a single morning.
 
@@ -44,8 +44,8 @@ Listings used attractive US locations and remote labels: Los Angeles County (Cas
 
 **Countermeasure:** Cross-check the listed location against the description and against where the real business actually operates.
 
-## 8. Targeting career changers and new graduates
+## 8. Exposure of career changers and new graduates
 
-Every investigated posting was an entry-level or junior cybersecurity role, the segment with the most applicants and the strongest motivation to apply quickly and share information freely.
+The precise seniority record across the six cases is mixed: Cases 003, 005, and 006 were junior-titled, Case-002 was open to 0–3 years of experience, Case-004's level is unknown, and Case-001's copied body text described a senior role. What the cases share is where they surfaced — in searches for junior cybersecurity roles, the segment with the most applicants and the strongest motivation to apply quickly and share information freely.
 
 **Countermeasure:** New candidates should assume they are a preferred target for this pattern and apply the verification steps in `analysis/lessons-learned.md` before every submission, especially for junior remote roles.

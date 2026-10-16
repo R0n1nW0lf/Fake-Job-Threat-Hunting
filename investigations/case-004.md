@@ -40,7 +40,7 @@ The posting may be a legitimate staffing or coaching business marketing itself, 
 
 ## Verification
 
-- Web searches found the advertised role nowhere outside the LinkedIn posting.
+- Web searches found no corroboration of the advertised role outside the LinkedIn posting.
 - No track record, client list, or independent corroboration of the firm's staffing claims could be found.
 - Equally, no evidence was found that the firm had copied another employer's job, impersonated a specific real business, or used a dead domain or an unaffiliated poster, which are the indicators behind the stronger verdicts in Cases 002, 003, 005, and 006.
 
@@ -55,7 +55,7 @@ The posting may be a legitimate staffing or coaching business marketing itself, 
 
 ## Indicators
 
-- Role exists only in the LinkedIn posting
+- No corroboration for the role found outside the LinkedIn posting
 - Staffing-style text naming no end employer
 - Identity mismatch between the firm's site (coaching product, India-based) and its LinkedIn page (New York staffing partner)
 - No independent track record or corroboration
@@ -66,3 +66,9 @@ The posting may be a legitimate staffing or coaching business marketing itself, 
 - No impersonation of a specific unrelated business established
 - No dead contact domain
 - No poster affiliation mismatch documented
+
+## Sources
+
+- Original LinkedIn posting: https://www.linkedin.com/jobs/view/4479873649
+- Firm website: divinetalent.in — reviewed live on 2026-10-15
+- Public web search — no corroborating source for the advertised role or the firm's staffing claims found; specific search-result URLs Not Verified

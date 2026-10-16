@@ -29,24 +29,24 @@ A full-time Easy Apply posting for a "Junior Cybersecurity Analyst", listed as N
 
 ## Hypothesis
 
-The posting may be impersonating a real foreign outsourcing firm to harvest applicant information, following the pattern from Cases 002 and 003.
+The posting may be impersonating a real foreign outsourcing firm, following the pattern from Cases 002 and 003. Information harvesting is a possible purpose (hypothesis), not an independently verified outcome.
 
 ## Evidence
 
 - The listed poster, Carlos Santo, is publicly a Tata Consultancy Services support analyst in Rio de Janeiro, Brazil, with no VITAL affiliation shown.
 - The real VITAL • Soluciones is a Costa Rican HR/administrative outsourcing firm. Its published services are recruitment, maintenance, and logistics — not cybersecurity.
 - A template-identical sister posting ("Data Insights Analyst (Entry / Junior)", New York) ran under the same company name on 2026-09-07.
-- The role exists only on LinkedIn. The company page's Jobs tab contained exactly this one job.
+- No corroboration for the role was found outside LinkedIn. The company page's Jobs tab contained exactly this one job.
 
 ## Verification
 
 - The posting's contact domain, vital-soluciones.com, does not resolve.
 - The real firm's site (vitalsoluciones.com) shows no careers page, no cybersecurity offering, and no US operations.
-- Web searches found zero corroboration of the role anywhere outside LinkedIn.
+- Web searches found no corroboration of the role outside LinkedIn.
 
 ## Conclusion
 
-**Likely fake / impersonation.** A real Costa Rican outsourcing firm's name was used on a US cybersecurity posting, listed by a poster publicly employed by an unrelated company on another continent, with a dead contact domain and no corroboration.
+**Likely fake / impersonation.** A real Costa Rican outsourcing firm's name was used on a US cybersecurity posting, listed by a poster publicly employed by an unrelated company on another continent, with a non-resolving contact domain and no corroboration found elsewhere. Potential information harvesting remains a hypothesis; receipt or misuse of applicant information was not verified.
 
 ## Action Taken
 
@@ -58,6 +58,13 @@ The posting may be impersonating a real foreign outsourcing firm to harvest appl
 - Poster publicly affiliated with an unrelated employer (Tata Consultancy Services, Brazil)
 - Real business is foreign and outside the advertised industry
 - Contact domain does not resolve
-- Role exists only on LinkedIn; company Jobs tab held only this posting
+- No corroboration for the role found outside LinkedIn; company Jobs tab held only this posting
 - Template-identical sister posting under the same name
 - Platform safety reminder shown on the Apply button
+
+## Sources
+
+- Original LinkedIn posting: https://www.linkedin.com/jobs/view/4477333594
+- Real firm's website: vitalsoluciones.com — reviewed live on 2026-10-15; no careers page or cybersecurity offering found
+- Domain check on the posting's contact domain: vital-soluciones.com — did not resolve at investigation time
+- LinkedIn company page / Jobs tab and poster affiliation check — reviewed live on 2026-10-15; exact profile/page URLs Not Verified

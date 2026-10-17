@@ -46,6 +46,6 @@ Listings used attractive US locations and remote labels: Los Angeles County (Cas
 
 ## 8. Exposure of career changers and new graduates
 
-The precise seniority record across the six cases is mixed: Cases 003, 005, and 006 were junior-titled, Case-002 was open to 0–3 years of experience, Case-004's level is unknown, and Case-001's copied body text described a senior role. What the cases share is where they surfaced — in searches for junior cybersecurity roles, the segment with the most applicants and the strongest motivation to apply quickly and share information freely.
+The precise seniority record across the seven cases is mixed: Cases 003, 005, and 006 were junior-titled, Case-002 was open to 0–3 years of experience, Case-004's level is unknown, Case-007 stated no seniority level, and Case-001's copied body text described a senior role. What the cases share is where they surfaced — in searches for junior cybersecurity roles, the segment with the most applicants and the strongest motivation to apply quickly and share information freely.
 
 **Countermeasure:** New candidates should assume they are a preferred target for this pattern and apply the verification steps in `analysis/lessons-learned.md` before every submission, especially for junior remote roles.

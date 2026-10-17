@@ -1,6 +1,6 @@
 # Fake Job Recruitment Threat Hunting and OSINT Investigation
 
-A threat-hunting and open-source intelligence (OSINT) portfolio project documenting the investigation of suspicious and fraudulent cybersecurity job postings encountered during a real job search between September 30 and October 16, 2026.
+A threat-hunting and open-source intelligence (OSINT) portfolio project documenting the investigation of suspicious and fraudulent cybersecurity job postings encountered during a real job search between September 30 and October 17, 2026.
 
 **Investigator:** Ronald Wolf, SOC analyst candidate
 
@@ -8,11 +8,11 @@ A threat-hunting and open-source intelligence (OSINT) portfolio project document
 
 Job seekers, especially entry-level and career-changing candidates, may be attractive targets for suspected information-harvesting schemes. A fraudulent posting could solicit resumes and contact details before anyone questions it; whether any particular posting received or misused applicant information was not independently verified in these investigations. This project applies a structured investigation method to suspicious LinkedIn cybersecurity postings, documents the evidence for each case, correlates indicators across cases, and records what defensive lessons each investigation produced.
 
-Across six investigations, the outcomes were:
+Across seven investigations, the outcomes were:
 
 - 1 confirmed scam
 - 4 likely fake / impersonation verdicts
-- 1 posting that could not be verified and was skipped without being labelled fraudulent
+- 2 postings that could not be verified and were skipped without being labelled fraudulent
 - 0 applications submitted to any suspicious posting, and 0 items of personal information sent
 
 ## Investigation Methodology
@@ -41,7 +41,8 @@ Within each case, confirmed facts, suspicious indicators, hypotheses, and unveri
 - In the strongest cases, the postings impersonated real foreign small businesses, coalitions, or service firms that have no cybersecurity operation and no US presence.
 - Listed job posters, where shown, were publicly affiliated with unrelated employers, not with the company named in the posting.
 - In Cases 002 and 005, the checked contact domains did not resolve. In Case-006, no website was listed on the company page and no contact email was shown in the posting. In Cases 002, 003, 005, and 006, no corroboration for the advertised role was found outside LinkedIn. Case-001 was different: the genuine role existed at EaglePicher Technologies, while the copy appeared on LinkedIn under the Netrolynx AI name.
-- Closure timing and displayed applicant counts varied by case. Case-002 closed approximately 2 hours after going live and displayed 16 applicants at first sighting. Case-006 closed within approximately 7 hours and displayed 26 applicants. Case-003 closed and displayed 26 applicants; its closure interval is Not Verified. Cases 001, 004, and 005 have applicant counts recorded as Not Verified.
+- Closure timing and displayed applicant counts varied by case. Case-002 closed approximately 2 hours after going live and displayed 16 applicants at first sighting. Case-006 closed within approximately 7 hours and displayed 26 applicants. Case-003 closed and displayed 26 applicants; its closure interval is Not Verified. Case-007 was still open at its investigation check, under an hour after posting, and displayed 3 applicants; its later closure status is Not Verified. Cases 001, 004, and 005 have applicant counts recorded as Not Verified.
+- Two cases (Case-004, Divine Talent, and Case-007, Nexorant LLC) form a distinct second category: unverifiable blind staffing posts. A traceable firm exists in each, but the posting names no end employer and the role has no corroboration anywhere; neither case shows the impersonation indicators behind the stronger verdicts, and neither firm is labelled fraudulent.
 - One case showed a LinkedIn company page displaying a placeholder name ("No aplica", Spanish for "not applicable") while its URL slug named a real Mexican law firm. A second, unrelated company's page also displayed the same placeholder. Who controlled either page, and whether any renaming was unauthorized, is Not Verified.
 
 The evidence supports a shared pattern and playbook across several cases. It does **not** establish that a single actor operates all of them, and this project makes no attribution claim.
@@ -50,7 +51,7 @@ The evidence supports a shared pattern and playbook across several cases. It doe
 
 - All evidence is point-in-time public data gathered at investigation time. Postings and company pages change or disappear; several postings closed during or shortly after investigation.
 - Screenshots were not retained as files. Evidence is preserved as dated investigation notes with source URLs (see `evidence/evidence-register.md` and `evidence/redacted-screenshots/README.md`). For Case-001, the original LinkedIn URL and job ID were recovered from the contemporaneous dated investigation log, and the verdict rests on that log plus the employer-site verification performed on 2026-10-02; no screenshot or side-by-side text-comparison file was preserved.
-- Verdicts are analytical assessments based on public evidence, not legal determinations. One case (Case-004) is explicitly recorded as unverifiable rather than fake, because the evidence did not support a stronger label.
+- Verdicts are analytical assessments based on public evidence, not legal determinations. Two cases (Case-004 and Case-007) are explicitly recorded as unverifiable rather than fake, because the evidence did not support a stronger label.
 - Poster names recorded in the case files were publicly displayed on LinkedIn at investigation time and are documented with their publicly listed affiliation only.
 
 ## Defensive Recommendations
@@ -81,7 +82,8 @@ Fake-Job-Threat-Hunting/
 │   ├── case-003.md
 │   ├── case-004.md
 │   ├── case-005.md
-│   └── case-006.md
+│   ├── case-006.md
+│   └── case-007.md
 ├── evidence/
 │   ├── evidence-register.md
 │   └── redacted-screenshots/

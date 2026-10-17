@@ -1,6 +1,6 @@
 # Correlation Analysis
 
-This analysis compares the six investigated cases to identify shared indicators, reused material, and common patterns. It separates what the evidence shows from what it does not.
+This analysis compares the seven investigated cases to identify shared indicators, reused material, and common patterns. It separates what the evidence shows from what it does not.
 
 ## Shared patterns
 
@@ -24,6 +24,7 @@ This analysis compares the six investigated cases to identify shared indicators,
 - CASE-003: poster an unrelated person in Argentina, in an unrelated profession; a second posting on the same page used yet another unrelated poster.
 - CASE-005: poster publicly a Tata Consultancy Services support analyst in Brazil; no affiliation with VITAL.
 - CASE-006: no poster was displayed at all.
+- CASE-007: no poster was displayed either; the posting was made under the company account itself, so the unrelated-poster indicator is absent rather than present.
 - CASE-001 and CASE-004: poster affiliation was not verified.
 
 ### Dead or absent domains and websites
@@ -44,7 +45,7 @@ Displayed applicant counts are LinkedIn's shown numbers. They do not prove that 
 
 ### No corroboration found outside LinkedIn
 
-In Cases 002, 003, 005, and 006, the advertised role could not be found on the real employer's website, careers page, or anywhere else on the web. Where a real business existed behind the name, its own LinkedIn Jobs tab was empty or held only the suspicious posting itself. Case-004's role likewise had no corroboration outside the LinkedIn posting and the firm's own site. Case-001 is the exception that proves the need for precision: the genuine role did exist — at the real employer, EaglePicher Technologies — and only the copy appeared on LinkedIn, under a false company name.
+In Cases 002, 003, 005, and 006, the advertised role could not be found on the real employer's website, careers page, or anywhere else on the web. Where a real business existed behind the name, its own LinkedIn Jobs tab was empty or held only the suspicious posting itself. Case-004's role likewise had no corroboration outside the LinkedIn posting and the firm's own site. Case-007's role likewise had no corroboration anywhere — exact-title and exact-phrase searches returned zero results, and the role could not be confirmed on the firm's own website, where listings sit behind a portal login. Case-001 is the exception that proves the need for precision: the genuine role did exist — at the real employer, EaglePicher Technologies — and only the copy appeared on LinkedIn, under a false company name.
 
 ## Indicator correlation table
 
@@ -66,8 +67,19 @@ In Cases 002, 003, 005, and 006, the advertised role could not be found on the r
 
 CASE-001 row note: the original posting's LinkedIn URL and job ID (4474739609) were recovered from the contemporaneous dated investigation log during the 2026-10-16 correction pass. Fields that remain Not Verified for the original posting — closure status, applicant count, application route, contact domain, and a preserved text-comparison file — are recorded as Not Verified in the case file rather than inferred here. The table's CASE-001 marks reflect only what was documented: copied job text, reposts under the same name, and a listed location that contradicts the genuine role.
 
+## Case-007: a second, distinct pattern
+
+Case-007 (Nexorant LLC, investigated 2026-10-17) is deliberately not folded into the table above, because it does not share the table's defining indicators. It shares two of the weaker ones: a generic template that names no end employer (only "client environments"), and zero corroboration for the advertised role anywhere, including on the firm's own website. It does **not** share the impersonation indicators: no third-party company's name or page was used (the account appears to be the firm's own, with branding consistent since 2022, its own website, and a modest multi-platform footprint), no poster was displayed at all so no poster affiliation mismatch exists, no copied job text was identified, and no contact domain was dead.
+
+The register therefore separates two distinct patterns rather than one:
+
+1. **Impersonation of third-party companies** — Cases 002, 003, 005, and 006, where real foreign businesses' names or pages carried roles those businesses have no connection to (with Case-001 a copying variant: a real employer's job text reposted under a false advertised identity).
+2. **Unverifiable blind staffing posts** — Cases 004 and 007, where a traceable firm posts a role naming no end employer, the role cannot be corroborated anywhere, and the evidence supports "not verified — skip" but not "fake".
+
+Keeping the two patterns separate matters: the second pattern can describe legitimate-but-opaque staffing behaviour as well as abuse, which is exactly why Cases 004 and 007 carry the weaker verdict.
+
 ## What the evidence supports, and what it does not
 
-The evidence supports a shared pattern and playbook across Cases 002, 003, 005, and 006: real foreign business names or pages, generic US-remote cybersecurity templates, posters with no affiliation to the named company, dead or absent domains, and no corroboration for the roles outside LinkedIn. On seniority, the precise record is: most of these postings were junior or entry-titled (Cases 003, 005, 006), while Case-002 was open to 0–3 years of experience. On closure, the documented record is narrower than a blanket claim: Case-002 closed approximately 2 hours after going live and Case-006 within approximately 7 hours; Case-003 also closed, with its interval Not Verified, and Case-005's closure status is Not Verified. Case-001 used a different technique — copying a real employer's job text and reposting it under a false advertised identity — and its copied body text was senior-level, not entry-level. Why any of these postings was created (for example, to harvest applicant information) is a hypothesis, not an established finding. Case-004 shares only the weakest indicators (no corroboration found for the role, identity mismatch) and remains unverifiable rather than fake.
+The evidence supports a shared pattern and playbook across Cases 002, 003, 005, and 006: real foreign business names or pages, generic US-remote cybersecurity templates, posters with no affiliation to the named company, dead or absent domains, and no corroboration for the roles outside LinkedIn. On seniority, the precise record is: most of these postings were junior or entry-titled (Cases 003, 005, 006), while Case-002 was open to 0–3 years of experience. On closure, the documented record is narrower than a blanket claim: Case-002 closed approximately 2 hours after going live and Case-006 within approximately 7 hours; Case-003 also closed, with its interval Not Verified, and Case-005's closure status is Not Verified. Case-001 used a different technique — copying a real employer's job text and reposting it under a false advertised identity — and its copied body text was senior-level, not entry-level. Why any of these postings was created (for example, to harvest applicant information) is a hypothesis, not an established finding. Case-004 shares only the weakest indicators (no corroboration found for the role, identity mismatch) and remains unverifiable rather than fake. Case-007, added 2026-10-17, shares the blind-posting and zero-role-corroboration indicators but not the impersonation indicators, and joins Case-004 in the second, distinct category of unverifiable blind staffing posts (see "Case-007: a second, distinct pattern" above).
 
 The evidence does **not** establish that one single actor runs all of these postings. Template reuse and similar timing are consistent with a shared playbook, copied techniques, or the same actor, and the available public evidence cannot distinguish between those possibilities. **No attribution claim is made.**

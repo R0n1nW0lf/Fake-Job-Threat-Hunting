@@ -6,7 +6,7 @@
 
 **No screenshots exist as files for these investigations.**
 
-During the investigations (September 30 – October 16, 2026), job postings and company pages were reviewed live, and findings were recorded the same day as dated investigation notes. Screenshots were not retained as image files, and none are fabricated or reconstructed for this repository. Any screenshot file appearing here in the future will be a genuine capture, redacted as described below, with its capture date recorded.
+During the investigations (September 30 – October 17, 2026), job postings and company pages were reviewed live, and findings were recorded the same day as dated investigation notes. Screenshots were not retained as image files, and none are fabricated or reconstructed for this repository. Any screenshot file appearing here in the future will be a genuine capture, redacted as described below, with its capture date recorded.
 
 ## How the evidence is preserved instead
 

@@ -1,6 +1,6 @@
 # Correlation Analysis
 
-This analysis compares the seven investigated cases to identify shared indicators, reused material, and common patterns. It separates what the evidence shows from what it does not.
+This analysis compares the eight investigated cases to identify shared indicators, reused material, and common patterns. It separates what the evidence shows from what it does not.
 
 ## Shared patterns
 
@@ -45,7 +45,7 @@ Displayed applicant counts are LinkedIn's shown numbers. They do not prove that 
 
 ### No corroboration found outside LinkedIn
 
-In Cases 002, 003, 005, and 006, the advertised role could not be found on the real employer's website, careers page, or anywhere else on the web. Where a real business existed behind the name, its own LinkedIn Jobs tab was empty or held only the suspicious posting itself. Case-004's role likewise had no corroboration outside the LinkedIn posting and the firm's own site. Case-007's role likewise had no corroboration anywhere — exact-title and exact-phrase searches returned zero results, and the role could not be confirmed on the firm's own website, where listings sit behind a portal login. Case-001 is the exception that proves the need for precision: the genuine role did exist — at the real employer, EaglePicher Technologies — and only the copy appeared on LinkedIn, under a false company name.
+In Cases 002, 003, 005, and 006, the advertised role could not be found on the real employer's website, careers page, or anywhere else on the web. Where a real business existed behind the name, its own LinkedIn Jobs tab was empty or held only the suspicious posting itself. Case-004's role likewise had no corroboration outside the LinkedIn posting and the firm's own site. Case-007's role likewise had no corroboration anywhere — exact-title and exact-phrase searches returned zero results, and the role could not be confirmed on the firm's own website, where listings sit behind a portal login. Case-008's role likewise had no corroboration anywhere — and, uniquely in this register, neither did the employer: no company page, website, registration, or any other trace of the business was found. Case-001 is the exception that proves the need for precision: the genuine role did exist — at the real employer, EaglePicher Technologies — and only the copy appeared on LinkedIn, under a false company name.
 
 ## Indicator correlation table
 
@@ -77,6 +77,16 @@ The register therefore separates two distinct patterns rather than one:
 2. **Unverifiable blind staffing posts** — Cases 004 and 007, where a traceable firm posts a role naming no end employer, the role cannot be corroborated anywhere, and the evidence supports "not verified — skip" but not "fake".
 
 Keeping the two patterns separate matters: the second pattern can describe legitimate-but-opaque staffing behaviour as well as abuse, which is exactly why Cases 004 and 007 carry the weaker verdict.
+
+## Case-008: a third variant — fabricated employer identity
+
+Case-008 (REVO — Revolutionary Volatility Operations, investigated 2026-10-20) shares the register's core weak indicators with both patterns above — a generic template description naming no verifiable specific, and zero corroboration for the advertised role anywhere — but it matches neither pattern's identity mechanism. No third-party company was impersonated, because no business under the advertised name could be found at all: no LinkedIn company page exists (the name on the posting is non-clickable text), no website exists, no business registration under the name was located, and an exact-name web search returned zero results about any such company. Nor is it a blind staffing post, because there is no traceable firm doing the posting.
+
+The register therefore records a third variant alongside the two patterns:
+
+3. **Fabricated employer identity** — Case-008, where the advertised employer itself appears invented wholesale: a template US-remote cybersecurity posting with no company page, no named poster, no website, no registration, and no footprint of any kind behind it.
+
+The distinction matters for the same reason the two patterns are kept separate: impersonation leaves a real victim business behind it; fabrication, on the evidence available, leaves none that could be identified. Who created the Case-008 posting, and for what purpose, is Not Verified.
 
 ## What the evidence supports, and what it does not
 

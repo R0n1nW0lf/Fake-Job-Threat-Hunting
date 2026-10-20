@@ -2,16 +2,16 @@
 
 **Project:** Fake Job Recruitment Threat Hunting and OSINT Investigation
 **Investigator:** Ronald Wolf, SOC analyst candidate
-**Investigation period:** September 30 – October 17, 2026
-**Report date:** 2026-10-16 (updated 2026-10-17 to add Case-007)
+**Investigation period:** September 30 – October 20, 2026
+**Report date:** 2026-10-16 (updated 2026-10-17 to add Case-007; updated 2026-10-20 to add Case-008)
 
 ## Executive Summary
 
-During a cybersecurity job search, seven suspicious LinkedIn job postings were investigated using a structured OSINT method: observe, hypothesise, gather evidence, verify against independent sources, then conclude and act. One posting was a confirmed scam that copied a real employer's job. Four postings received likely fake / impersonation verdicts, each built on multiple independent indicators: real foreign businesses with no connection to the role, posters publicly affiliated with unrelated employers, dead or absent domains, and — in Cases 002, 003, 005, and 006 — no corroboration for the role found outside LinkedIn. Rapid closure is documented in two of the patterned cases (Case-002 in approximately 2 hours, Case-006 within approximately 7 hours). Whether any posting's purpose was information harvesting is a hypothesis, not an established finding. Two postings could not be verified and were skipped without being labelled fraudulent, because the evidence did not support a stronger verdict. No application was submitted to any of the seven postings, and no personal information was sent.
+During a cybersecurity job search, eight suspicious LinkedIn job postings were investigated using a structured OSINT method: observe, hypothesise, gather evidence, verify against independent sources, then conclude and act. One posting was a confirmed scam that copied a real employer's job. Five postings received likely fake verdicts: four built on multiple independent indicators of impersonation (real foreign businesses with no connection to the role, posters publicly affiliated with unrelated employers, dead or absent domains, and — in Cases 002, 003, 005, and 006 — no corroboration for the role found outside LinkedIn), and one (Case-008) where the advertised employer appears fabricated wholesale — no LinkedIn company page, website, business registration, or any other trace of the business could be found. Rapid closure is documented in two of the patterned cases (Case-002 in approximately 2 hours, Case-006 within approximately 7 hours). Whether any posting's purpose was information harvesting is a hypothesis, not an established finding. Two postings could not be verified and were skipped without being labelled fraudulent, because the evidence did not support a stronger verdict. No application was submitted to any of the eight postings, and no personal information was sent.
 
 ## Scope and Methodology
 
-Scope: LinkedIn cybersecurity job postings encountered during the investigator's own job search between September 30 and October 17, 2026, that presented indicators of impersonation, copying, or information harvesting.
+Scope: LinkedIn cybersecurity job postings encountered during the investigator's own job search between September 30 and October 20, 2026, that presented indicators of impersonation, copying, or information harvesting.
 
 Methodology: each case followed the loop Observation → Hypothesis → Evidence → Verification → Conclusion → Action Taken, guided by the principle: don't assume, gather evidence, question it, analyse it, and verify the source before trusting it. Verification used public web search (including exact-phrase searches), DNS and domain resolution checks, business directories, employer websites and careers pages, and LinkedIn company pages and Jobs tabs. No suspicious party was contacted and no test application was submitted.
 
@@ -26,6 +26,7 @@ Methodology: each case followed the loop Observation → Hypothesis → Evidence
 | CASE-005 | VITAL • Soluciones | Likely fake / impersonation | High |
 | CASE-006 | "No aplica" (Gestiuno Servicios Legales, S.C.) | Likely fake / impersonation | High |
 | CASE-007 | Nexorant LLC | Not verified — skip (not proven fake) | Low (insufficient evidence either way) |
+| CASE-008 | REVO — Revolutionary Volatility Operations | Likely fake / fabricated employer | High (no trace of the business found in any source checked) |
 
 Full evidence for each case is in `investigations/`, and the indicator dataset is in `indicators/suspicious-listings.csv`. Every source checked is logged in `evidence/evidence-register.md`.
 
@@ -39,9 +40,11 @@ The evidence supports a shared pattern and playbook. It does not establish that 
 
 Case-007 (Nexorant LLC, investigated 2026-10-17) does not extend that pattern. It shares the blind-posting indicators — a generic template naming no end employer, and no corroboration for the role found anywhere — but none of the impersonation indicators: the account appears to be the firm's own, no poster mismatch or copied text was found, and no dead domain was involved. Together with Case-004, it forms a second, distinct category in this register: unverifiable blind staffing posts, recorded as not verified rather than fake.
 
+Case-008 (REVO — Revolutionary Volatility Operations, investigated 2026-10-20) is a third variant. It shares the generic-template and zero-corroboration indicators, but no real business was impersonated and no traceable firm posted it: no LinkedIn company page exists for the advertised employer, no website or business registration under the name was located, and an exact-name web search found no trace of any such business. The employer identity appears fabricated wholesale. Who created the posting, and why, is Not Verified.
+
 ## Impact
 
-The applicant counts documented in these investigations are the counts LinkedIn displayed: 16 applicants displayed at first sighting in Case-002, 26 applicants displayed in Case-003, 26 applicants displayed in Case-006, and 3 applicants displayed in Case-007 (whose posting was still open at the investigation check). The displayed counts for Cases 001, 004, and 005 are Not Verified.
+The applicant counts documented in these investigations are the counts LinkedIn displayed: 16 applicants displayed at first sighting in Case-002, 26 applicants displayed in Case-003, 26 applicants displayed in Case-006, 3 applicants displayed in Case-007 (whose posting was still open at the investigation check), and 7 applicants displayed in Case-008 (also still open at its investigation check). The displayed counts for Cases 001, 004, and 005 are Not Verified.
 
 A displayed applicant count does not prove that any applicant's information was received, stored, or misused. It is not known how many complete applications were submitted through any of these postings, what information each applicant sent, or what happened to it afterwards. If a posting was fraudulent, applicants who applied through it could have exposed their resumes and contact details to an unknown party — that exposure is a **potential risk (hypothesis)**, not a measured outcome, and no total of affected people can be supported by the available evidence. The investigator's own exposure was zero, because verification preceded every application decision.
 
@@ -52,6 +55,7 @@ A displayed applicant count does not prove that any applicant's information was 
 - What applicants who did apply were later contacted for, and whether any information they submitted was received or used for further phishing or fraud. No applicant outcome data is available, so this remains unknown rather than assumed.
 - Whether the Case-004 firm is a legitimate business with poor presentation or something else. It remains unverifiable on current evidence.
 - Whether the Case-007 posting was a genuine client role posted blind by the staffing firm, or something else. The end employer is unnamed and the role is uncorroborated, so it remains unverifiable on current evidence; the firm's inconsistent HQ claims (Moline, IL vs Chicago, IL) are documented but unexplained.
+- Whether any business at all stands behind the Case-008 advertised name. No trace of one was found in any source checked; whether the name was invented for this posting or belongs to an unregistered, unlisted operation cannot be determined from public evidence.
 
 ## Recommendations
 

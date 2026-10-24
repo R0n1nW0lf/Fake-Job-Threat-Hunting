@@ -10,7 +10,7 @@
 6. **Read the page, not the name.** Displayed names can be placeholders ("No aplica", Case-006) or borrowed identities. The URL slug, industry, headquarters, size, and specialties told the true story.
 7. **Treat fast-closing template posts as suspect.** Two postings opened and closed within hours (Case-002 in roughly 2 hours, displaying 16 applicants at first sighting; Case-006 within roughly 7 hours, displaying 26 applicants). Short-lived template postings behave less like hiring processes and more like collection windows; that characterisation is an inference from the pattern, and actual receipt or use of applicant data was not verified in any case.
 8. **Grade the verdict to the evidence.** Case-004 could not be verified, but the evidence did not prove fraud, so it was recorded as unverifiable and skipped. Skipping does not require proving a posting fake; labelling one fake requires evidence.
-9. **Never submit personal data before verification.** Across eight suspicious postings, zero applications were submitted and zero personal information was sent. Verification happened first, every time.
+9. **Never submit personal data before verification.** Across eleven suspicious postings, zero applications were submitted and zero personal information was sent. Verification happened first, every time.
 
 ## How this maps to SOC and threat-intelligence skills
 

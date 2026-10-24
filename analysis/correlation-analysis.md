@@ -1,6 +1,6 @@
 # Correlation Analysis
 
-This analysis compares the eight investigated cases to identify shared indicators, reused material, and common patterns. It separates what the evidence shows from what it does not.
+This analysis compares the eleven investigated cases to identify shared indicators, reused material, and common patterns. It separates what the evidence shows from what it does not.
 
 ## Shared patterns
 
@@ -45,7 +45,7 @@ Displayed applicant counts are LinkedIn's shown numbers. They do not prove that 
 
 ### No corroboration found outside LinkedIn
 
-In Cases 002, 003, 005, and 006, the advertised role could not be found on the real employer's website, careers page, or anywhere else on the web. Where a real business existed behind the name, its own LinkedIn Jobs tab was empty or held only the suspicious posting itself. Case-004's role likewise had no corroboration outside the LinkedIn posting and the firm's own site. Case-007's role likewise had no corroboration anywhere — exact-title and exact-phrase searches returned zero results, and the role could not be confirmed on the firm's own website, where listings sit behind a portal login. Case-008's role likewise had no corroboration anywhere — and, uniquely in this register, neither did the employer: no company page, website, registration, or any other trace of the business was found. Case-001 is the exception that proves the need for precision: the genuine role did exist — at the real employer, EaglePicher Technologies — and only the copy appeared on LinkedIn, under a false company name.
+In Cases 002, 003, 005, and 006, the advertised role could not be found on the real employer's website, careers page, or anywhere else on the web. Where a real business existed behind the name, its own LinkedIn Jobs tab was empty or held only the suspicious posting itself. Case-004's role likewise had no corroboration outside the LinkedIn posting and the firm's own site. Case-007's role likewise had no corroboration anywhere — exact-title and exact-phrase searches returned zero results, and the role could not be confirmed on the firm's own website, where listings sit behind a portal login. Case-008's role likewise had no corroboration anywhere — and, uniquely in this register, neither did the employer: no company page, website, registration, or any other trace of the business was found. Case-001 is the exception that proves the need for precision: the genuine role did exist — at the real employer, EaglePicher Technologies — and only the copy appeared on LinkedIn, under a false company name. Case-011 extends this check beyond LinkedIn: the advertised role could not be found on the employer's own careers board, which was read in full, and the listing itself existed only as an aggregator card.
 
 ## Indicator correlation table
 
@@ -87,6 +87,28 @@ The register therefore records a third variant alongside the two patterns:
 3. **Fabricated employer identity** — Case-008, where the advertised employer itself appears invented wholesale: a template US-remote cybersecurity posting with no company page, no named poster, no website, no registration, and no footprint of any kind behind it.
 
 The distinction matters for the same reason the two patterns are kept separate: impersonation leaves a real victim business behind it; fabrication, on the evidence available, leaves none that could be identified. Who created the Case-008 posting, and for what purpose, is Not Verified.
+
+## Case-009: a fourth variant — stale / recirculating requisition
+
+Case-009 (Wrench Group, investigated 2026-10-23) matches none of the three patterns above, and it is deliberately not folded into any of them. The employer is real, the posting ran under the employer's own name, its website and contact domain resolve, and no impersonation, fabrication, or blind-staffing indicator was established. The single decisive finding is narrower: at verification time the employer's own iCIMS applicant tracking system carried no such opening at all — an unfiltered search showed only an unrelated HVAC Maintenance Technician job, and keyword searches and the IT category filter all returned "no jobs found" — while the listing text matches an approximately 8-month-old mirror under a different title ("Cyber Fusion Analyst") and one mirror already records the role as no longer listed.
+
+The register therefore records a fourth variant:
+
+4. **Stale / recirculating requisition** — Case-009, where a role advertised under a real employer's own name cannot be confirmed as a live opening on the employer's own system, and the documented evidence points to an old requisition recirculating through LinkedIn and aggregators rather than to a fresh opening.
+
+The distinction matters: a stale requisition can be a platform or sync failure rather than anyone's deception, which is exactly why Case-009 carries the "not verified — skip" verdict and the employer is not labelled fraudulent. The practical lesson is the same one the whole register runs on: the employer's own ATS is the controlling source, and a listing that exists only in aggregator mirrors has not been verified.
+
+## Case-010: the impersonation indicator cluster, recorded not verified
+
+Case-010 (Spiralation, investigated 2026-10-23) is not folded into the impersonation pattern above, even though it carries that pattern's indicator cluster almost in full: a real foreign business unconnected to the advertised role (a Sri Lankan government startup-accelerator program run under ICTA Sri Lanka, Colombo, with no US presence and no security-sector activity), a poster publicly affiliated elsewhere (an ETL/Informatica data-engineering developer, not an HR or recruiting account, with no Spiralation affiliation), a dead listed domain (spiralation.com, the website on the company page, does not resolve), and no corroboration for the role outside LinkedIn (the program has no jobs portal, and no careers page or ATS carries the posting). Its company-page fields (industry "Fundraising", Government Agency type, HQ Colombo, 1 employee listed) contradict the advertised Michigan role in the same way the patterned cases' pages contradicted theirs.
+
+It is recorded **not verified, not likely fake**, on the investigator's verdict, and this analysis does not upgrade it. The distinction the register maintains is between an indicator cluster and a proven mechanism: the Case-010 evidence establishes a total employer/job mismatch and the absence of any legitimate US hiring employer behind the posting, but it does not establish who created the posting or for what purpose. Case-010 therefore stands as the register's clearest demonstration that the weaker verdict is a grading decision, not an evidence gap that stronger wording could paper over: the cluster justified the skip on its own, without needing the fake label.
+
+## Case-011: the stale / unverifiable-requisition variant, on an aggregator
+
+Case-011 (DISCO, investigated 2026-10-24) is a second instance of the fourth variant recorded for Case-009, and it is deliberately not folded into any of the other patterns. The employer is real, the listing ran under the employer's own name, its website and careers board resolve, and no impersonation, fabrication, or blind-staffing indicator was established. The single decisive finding matches Case-009's: at verification time the employer's own careers board carried no such opening at all — csdisco.com/careers was read in full across every department, and no "Security Engineer", and no security-titled role of any kind, appears on it. DISCO's standalone Greenhouse board is deactivated, so the embedded board that was checked is the only official board where the role could appear.
+
+Two features extend the variant without changing its verdict. First, the sighting came from an aggregator card (RemoteRocketship) rather than LinkedIn — Case-011 is the first case in this register whose original sighting was not a LinkedIn posting. Second, the card's full description sat behind a sign-up wall, so unlike Case-009, whose listing text could be read and matched against an older mirror, nothing about the advertised role beyond its title, remote claim, and undisclosed pay could be read at all. Whether the card was stale, mislabeled, or pointed to a posting that never was a live DISCO requisition is Not Verified. The distinction from Case-009 matters for the same reason Case-009's did: an aggregator card with no live requisition behind it can be a sync or listing failure rather than anyone's deception, which is exactly why Case-011 carries the "not verified — skip" verdict and DISCO is not labelled fraudulent.
 
 ## What the evidence supports, and what it does not
 

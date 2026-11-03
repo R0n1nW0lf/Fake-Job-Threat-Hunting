@@ -1,6 +1,6 @@
 # Fake Job Recruitment Threat Hunting and OSINT Investigation
 
-A threat-hunting and open-source intelligence (OSINT) portfolio project documenting the investigation of suspicious and fraudulent cybersecurity job postings encountered during a real job search between September 30 and October 25, 2026.
+A threat-hunting and open-source intelligence (OSINT) portfolio project documenting the investigation of suspicious and fraudulent cybersecurity job postings encountered during a real job search between September 30 and November 3, 2026.
 
 **Investigator:** Ronald Wolf, SOC analyst candidate
 
@@ -8,11 +8,11 @@ A threat-hunting and open-source intelligence (OSINT) portfolio project document
 
 Job seekers, especially entry-level and career-changing candidates, may be attractive targets for suspected information-harvesting schemes. A fraudulent posting could solicit resumes and contact details before anyone questions it; whether any particular posting received or misused applicant information was not independently verified in these investigations. This project applies a structured investigation method to suspicious LinkedIn cybersecurity postings, documents the evidence for each case, correlates indicators across cases, and records what defensive lessons each investigation produced.
 
-Across fifteen investigations, the outcomes were:
+Across seventeen investigations, the outcomes were:
 
 - 1 confirmed scam
 - 5 likely fake verdicts (4 impersonation of real businesses, 1 fabricated employer identity)
-- 9 postings that could not be verified and were skipped without being labelled fraudulent
+- 11 postings that could not be verified and were skipped without being labelled fraudulent
 - 0 applications submitted to any suspicious posting, and 0 items of personal information sent
 
 ## Investigation Methodology
@@ -50,6 +50,8 @@ Within each case, confirmed facts, suspicious indicators, hypotheses, and unveri
 - Case-011 is a second instance of the Case-009 variant, and the register's first sighting from an aggregator rather than LinkedIn: a RemoteRocketship card advertised a "Security Engineer" role under DISCO's name as fully remote with pay undisclosed, the full description behind a sign-up wall — but DISCO's own careers board, read in full, carries no security-titled role at all, and its standalone Greenhouse board is deactivated. The card could not be corroborated on the employer's own site: stale, mislabeled, or never a live DISCO requisition. It is recorded as not verified, not fake, and DISCO is not labelled fraudulent.
 - Cases 012 (V2Soft) and 014 (Blue Mantis) are further instances of the employer-board-absence variant: in both, the advertised role had no presence on the poster's or employer's own careers board at verification time — V2Soft's board listed 150 jobs with no Network Security Engineer, and Blue Mantis's board listed 37 jobs with no Security Analyst L1 — and in both the LinkedIn posting itself had already been removed, so no posting text survives to verify against. Case-012's poster is a staffing firm whose posting named no client employer; Case-014's listing additionally contradicted itself on location. Neither firm is labelled fraudulent.
 - Cases 013 (Torentify / Innodata) and 015 (TaskVerse / FetchJobs) are the register's first mislabeled-repost cases: a third-party front republishes a real employer's job under its own name, and the repost misrepresents the work. Case-013's card advertised a full-time remote cybersecurity role, while the named employer's own posting for the matching work describes part-time, project-based AI-training contributor work at $15/hr. Case-015's body paraphrases a real CrowdStrike Systems Engineer II role with its experience requirement and pay stripped out, and the duties are production-systems / SRE work, not cybersecurity analysis. Whether either repost was authorized is Not Verified, and neither poster is labelled fraudulent.
+- Case-016 is the register's first unstable-posting case: the employer (KGS Technology Group) is real, but the posting itself changed content under a single LinkedIn ID during verification — a broad multi-level version offering contract-to-hire, then a Junior Analyst version aimed at December 2026 graduates — never appeared on KGS's own careers page (8 roles listed, none matching), never resolved its location, and stated no salary in either version. It is recorded as not verified, not fake: an unstable posting functioning as a graduate-pipeline resume pool, and the content-change-under-a-stable-ID indicator is new to this register.
+- Case-017 is TaskVerse again — the same aggregator front as Case-015, now carrying a "Cyber Security Engineer" posting built from a generic template whose company section is swapped boilerplate: the identical title and template under TaskVerse for Germany describes apetito AG, a family-owned food company founded in 1958. The US posting stated it was not currently accepting applications, TaskVerse's own careers page lists no openings (only a "Send Resume" prompt), and no matching role exists on the named employer's (Leidos) own board. It is recorded as not verified, not fake — and it makes TaskVerse a repeat-pattern actor across two cases in this register.
 
 The evidence supports a shared pattern and playbook across several cases. It does **not** establish that a single actor operates all of them, and this project makes no attribution claim.
 
@@ -57,7 +59,7 @@ The evidence supports a shared pattern and playbook across several cases. It doe
 
 - All evidence is point-in-time public data gathered at investigation time. Postings and company pages change or disappear; several postings closed during or shortly after investigation.
 - Screenshots were not retained as files. Evidence is preserved as dated investigation notes with source URLs (see `evidence/evidence-register.md` and `evidence/redacted-screenshots/README.md`). For Case-001, the original LinkedIn URL and job ID were recovered from the contemporaneous dated investigation log, and the verdict rests on that log plus the employer-site verification performed on 2026-10-02; no screenshot or side-by-side text-comparison file was preserved.
-- Verdicts are analytical assessments based on public evidence, not legal determinations. Nine cases (Case-004, Case-007, Case-009, Case-010, Case-011, Case-012, Case-013, Case-014, and Case-015) are explicitly recorded as unverifiable rather than fake, because the evidence did not support a stronger label.
+- Verdicts are analytical assessments based on public evidence, not legal determinations. Eleven cases (Case-004, Case-007, Case-009, Case-010, Case-011, Case-012, Case-013, Case-014, Case-015, Case-016, and Case-017) are explicitly recorded as unverifiable rather than fake, because the evidence did not support a stronger label.
 - Poster names recorded in the case files were publicly displayed on LinkedIn at investigation time and are documented with their publicly listed affiliation only.
 
 ## Defensive Recommendations
@@ -97,7 +99,9 @@ Fake-Job-Threat-Hunting/
 │   ├── case-012.md
 │   ├── case-013.md
 │   ├── case-014.md
-│   └── case-015.md
+│   ├── case-015.md
+│   ├── case-016.md
+│   └── case-017.md
 ├── evidence/
 │   ├── evidence-register.md
 │   └── redacted-screenshots/

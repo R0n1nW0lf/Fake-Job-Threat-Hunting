@@ -1,17 +1,19 @@
 # Fake Job Recruitment Threat Hunting and OSINT Investigation
 
-A threat-hunting and open-source intelligence (OSINT) portfolio project documenting the investigation of suspicious and fraudulent cybersecurity job postings encountered during a real job search between September 30 and November 11, 2026.
+A threat-hunting and open-source intelligence (OSINT) portfolio project documenting the investigation of suspicious and fraudulent cybersecurity job postings encountered during a real job search between September 30 and November 14, 2026.
 
 **Investigator:** Ronald Wolf, SOC analyst candidate
+
+![Investigation verdicts across 21 cases: 1 confirmed scam, 7 likely fake, 13 not verified](verdict-breakdown.svg)
 
 ## Purpose
 
 Job seekers, especially entry-level and career-changing candidates, may be attractive targets for suspected information-harvesting schemes. A fraudulent posting could solicit resumes and contact details before anyone questions it; whether any particular posting received or misused applicant information was not independently verified in these investigations. This project applies a structured investigation method to suspicious LinkedIn cybersecurity postings, documents the evidence for each case, correlates indicators across cases, and records what defensive lessons each investigation produced.
 
-Across twenty investigations, the outcomes were:
+Across twenty-one investigations, the outcomes were:
 
 - 1 confirmed scam
-- 6 likely fake verdicts (4 impersonation of real businesses, 1 fabricated employer identity, 1 aggregator front whose description presented a real employer that has no such role)
+- 7 likely fake verdicts (5 impersonation of real businesses, 1 fabricated employer identity, 1 aggregator front whose description presented a real employer that has no such role)
 - 13 postings that could not be verified and were skipped without being labelled fraudulent
 - 0 applications submitted to any suspicious posting, and 0 items of personal information sent
 
@@ -55,6 +57,7 @@ Within each case, confirmed facts, suspicious indicators, hypotheses, and unveri
 - Case-018 is the register's first brand-page case: the advertised employer ("I'm green bio-based") is not a company at all but Braskem's bioplastic brand page, whose attached employees are all in marketing; Braskem's own job board lists five openings, all chemistry and sales, with no security role; the posting accepted no applications; and the poster is publicly a PhD student in coastal ecosystem economics in Ireland with no tie to Braskem, recruiting, or cybersecurity — the only funnel was direct-messaging him. It is recorded as not verified, not fake, on the same grading discipline as Case-010: a total employer/job mismatch is established, but not who created the posting or why.
 - Case-019 is the register's strongest aggregator case, and the first aggregator posting graded likely fake: the card ran under Superworq, a 2–10 person software shop running a bulk job board (89 unrelated postings all dated the same day), while the description presented the role throughout as a Fidelity hire and never named Superworq. No matching role exists on Fidelity's own careers board, the description text exists nowhere else on the web and misdescribes the employer it names (an investment firm described as a bank), and the external apply destination was already expired about an hour after posting. Unlike Cases 015 and 017, where the established facts were mislabeling and an absent opening, here the body itself impersonates a named employer's hiring — which is what carries the stronger verdict. It is still not a confirmed scam: who wrote the posting, and what applicant information sent to the poster is used for, is Not Verified.
 - Case-020 is TaskVerse a third time — the same aggregator front as Cases 015 and 017, now retitling a real employer's role across job families: Fortress Information Security's Security Risk Assessor, a third-party risk (TPRM) job, was posted as a "Cyber Security Engineer", with the pay range ($67,832–$94,212) and both stated requirements (at least 2 years of proven experience, Required; Associate degree, Required) stripped out. No role with the advertised title exists on Fortress's own board, and the real role sits as Orlando HQ Remote, Florida, with Michigan eligibility unstated. It is recorded as not verified, not fake: the underlying role is real — what fails is the card itself.
+- Case-021 returns to the register's original impersonation pattern (Cases 002, 003, 005, 006): a Junior Cybersecurity Analyst posting, listed Ohio, US remote, under the name of A2G — Alliance Euro-Marocaine de Gériatrie et Gérontologie, a real French loi 1901 geriatrics association (2–10 people, Events Services, Paris) with no US presence, no cybersecurity function, and no website at all — its LinkedIn page's website field is a Google Form. The description is a wholly generic template with nothing specific to that employer, the role is corroborated nowhere, and the posting was removed from LinkedIn within about a day of going live. It is recorded as likely fake / impersonation, not a confirmed scam: no fee or information request was observed, and who created the posting is Not Verified.
 
 The evidence supports a shared pattern and playbook across several cases. It does **not** establish that a single actor operates all of them, and this project makes no attribution claim.
 
@@ -86,6 +89,7 @@ For platforms and impersonated businesses:
 ```
 Fake-Job-Threat-Hunting/
 ├── README.md
+├── verdict-breakdown.svg
 ├── PROJECT-DESCRIPTION.md
 ├── investigations/
 │   ├── case-001.md
@@ -107,7 +111,8 @@ Fake-Job-Threat-Hunting/
 │   ├── case-017.md
 │   ├── case-018.md
 │   ├── case-019.md
-│   └── case-020.md
+│   ├── case-020.md
+│   └── case-021.md
 ├── evidence/
 │   ├── evidence-register.md
 │   └── redacted-screenshots/
